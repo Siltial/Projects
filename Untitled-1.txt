@@ -1,0 +1,10 @@
+-- database: c:\Projects\new.db
+
+-- Чтобы выполнить весь файл, нажмите кнопку ▷ в правом верхнем углу окна.
+
+SELECT * FROM Movies;
+SELECT * FROM Movies;
+SELECT name,rating FROM Movies;
+SELECT DISTINCT year FROM Movies;
+select name,genre from Movies 
+WHERE year = 2020;
